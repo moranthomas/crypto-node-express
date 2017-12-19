@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{{ ticker }}</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1>CRYPTO TRADER !</h1>
+    <p>The ticker you requested is {{symbol}} and it's price is {{price}}. </p>
+    <p> The 1  hour change: {{ percent_change_1h}} %</p>
+    <p> The 24 hour change: {{ percent_change_24h}} %</p>
+    <p> The 7 day change: {{ percent_change_7d}} %</p>
+  </body>
+</html>
