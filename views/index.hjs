@@ -1,12 +1,18 @@
 <!DOCTYPE html>
 <html>
-  <head>
+
+<head>
     <title>{{ title }}</title>
     <link rel='stylesheet' href='/stylesheets/style.css' />
-  </head>
-  <body>
+</head>
+
+<body>
     <h1>{{ title }}</h1>
-    <p>{{ title }} welcomes you to his very first domain in Express </p>
+    <p> Hi, my name is {{ name }} </p>
     <p> I am {{ age }} years old </p>
-  </body>
+    <p> and I would like to welcome you to my very first crypto domain in Express </p>
+    </br>
+    <p> Click <a href='./dashboard'> HERE </a> to go to your portfolio </p>
+</body>
+
 </html>

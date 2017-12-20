@@ -8,6 +8,10 @@ var lessMiddleware = require('less-middleware');
 
 var index = require('./routes/index');
 var crypto = require('./routes/crypto');
+var dashboard = require('./routes/dashboard');
+var charts = require('./routes/charts');
+var calendar = require('./routes/calendar');
+
 
 var app = express();
 
@@ -28,6 +32,10 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', index);
 app.use('/crypto', crypto);
+app.use('/dashboard', dashboard);
+app.use('/charts', charts);
+app.use('/calendar', calendar);
+
 
 // catch 404 and forward to error handler
 app.use(function (req, res, next) {

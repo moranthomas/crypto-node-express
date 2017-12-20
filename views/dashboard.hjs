@@ -98,7 +98,7 @@
                 </div>
                 <ul class="nav">
                     <li class="nav-item ">
-                        <a class="nav-link" href="dashboard.html">
+                        <a class="nav-link" href="dashboard">
                             <i class="nc-icon nc-chart-pie-35"></i>
                             <p>Dashboard</p>
                         </a>
@@ -264,13 +264,13 @@
                         </div>
                     </li>-->
                     <li class="nav-item ">
-                        <a class="nav-link" href="charts.html">
+                        <a class="nav-link" href="charts">
                             <i class="nc-icon nc-chart-bar-32"></i>
                             <p>Charts</p>
                         </a>
                     </li>
                     <li class="nav-item ">
-                        <a class="nav-link" href="calendar.html">
+                        <a class="nav-link" href="calendar">
                             <i class="nc-icon nc-single-copy-04"></i>
                             <p>Calendar</p>
                         </a>
@@ -848,6 +848,7 @@
                                                     ©
                                                     <script>
                                                         document.write(new Date().getFullYear())
+
                                                     </script>
                                                     <a href="http://www.creative-tim.com">Creative Tim</a>, made with love for a better web
                                                 </p>
@@ -1004,6 +1005,7 @@
         demo.initVectorMap();
 
     });
+
 </script>
 <!-- Facebook Pixel Code Don't Delete -->
 <script>
@@ -1033,6 +1035,7 @@
     } catch (err) {
         console.log('Facebook Track Error:', err);
     }
+
 </script>
 <noscript>
     <img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=111649226022273&ev=PageView&noscript=1" />
