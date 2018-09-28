@@ -12,7 +12,6 @@ var dashboard = require('./routes/dashboard');
 var charts = require('./routes/charts');
 var calendar = require('./routes/calendar');
 
-
 var app = express();
 
 // view engine setup

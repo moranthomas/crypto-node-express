@@ -1,6 +1,7 @@
 var express = require('express');
 var router = express.Router();
 var http = require('http');
+var fs = require('fs');
 
 
 router.get('/:id', function (req, res) {
@@ -13,6 +14,10 @@ router.get('/:id', function (req, res) {
     var percent_change_24h = '';
     var percent_change_7d = '';
 
+    fs.readFile('readme.txt', 'utf-8', function (err, data) {
+        console.log('reading file');
+        fs.writeFile('writeme.txt');
+    });
 
     var request = require('request');
     request('https://api.coinmarketcap.com/v1/ticker/' + req.params.id, function (error, response, body) {
